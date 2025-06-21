@@ -27,17 +27,17 @@ public class ProdutoController {
     }
 
     @PostMapping
-    public ProdutoDTO createProduto(@RequestBody ProdutoDTO produtoDTO) {
-        return produtoService.createProduto(produtoDTO);
+    public ProdutoDTO createProduto(@RequestBody ProdutoDTO produtoDTO, String usuario) {
+        return produtoService.createProduto(produtoDTO, usuario);
     }
 
     @PutMapping("/{id}")
-    public ProdutoDTO updateProduto(@PathVariable UUID id, @RequestBody ProdutoDTO produtoDTO){
-        return produtoService.updateProduto(id, produtoDTO);
+    public ProdutoDTO updateProduto(@PathVariable UUID id, @RequestBody ProdutoDTO produtoDTO, String usuario){
+        return produtoService.updateProduto(id, produtoDTO, usuario);
     }
 
     @DeleteMapping("/{id}")
-    public ProdutoDTO deleteProduto(@PathVariable UUID id) {
-        return produtoService.deleteProduto(id);
+    public ProdutoDTO deleteProduto(@PathVariable UUID id, String usuario) {
+        return produtoService.deleteProduto(id, usuario);
     }
 }
