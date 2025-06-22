@@ -1,4 +1,4 @@
-##Descrição do Projeto
+#Descrição do Projeto#
 #Nome: Caseirinhos da Márcia
 Objetivo: Sistema de gerenciamento de um catálogo de produtos de padaria e confeitaria caseiros sem glúten, permitindo o cadastro de produtos, usuários, controle de carrinho e auditoria de alterações, que no momento está configurado para a entidade produto.
 ##Integrantes do grupo
@@ -6,7 +6,7 @@ Objetivo: Sistema de gerenciamento de um catálogo de produtos de padaria e conf
 * Katleen Mendes
 * Hian Rick
 ________________________________________
-##Descrição do Problema
+#Descrição do Problema
 A venda de produtos caseiros requer controle de estoque, gerenciamento de pedidos e rastreabilidade de alterações nos produtos. O sistema visa automatizar essas operações com uma interface de API RESTful.
 ________________________________________
 ##Tecnologias Utilizadas
